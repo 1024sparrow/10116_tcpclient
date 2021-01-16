@@ -2,13 +2,14 @@
 > Tcp-клиент
 ## Сборка
 qmake && make
+
 Qt версии 5.
 
 ## Использование
 
 TCP-клиент.
 Использование:
-	./XXX --ip 1.2.3.4 --port 1234 [--encoding "some encoding"] [--help]
+	./10116_tcpclient --ip 1.2.3.4 --port 1234 [--encoding "some encoding"] [--help]
 Ключи:
 	--ip <IP> - указание, к какому IP коннектиться
 	--port <port> - указание, по какому порту коннектиться
